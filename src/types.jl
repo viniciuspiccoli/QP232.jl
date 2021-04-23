@@ -14,7 +14,7 @@ end
 
 # Slater Type Orbital fit with N gaussians (STO-NG) type basis
 struct STONG <: BasisFunction
-  n::Integer
+  n::Int64
   #contraction coeffiecents
   d::Array{Float64} 
   #primative gaussians
